@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+
+set -euo pipefail
+
+gem build *.gemspec
+gem install *.gem
+rm *.gem
+
